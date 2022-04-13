@@ -6,4 +6,5 @@ sidebar_position: 1
 
 ## Good Point
 ### Thanks!
-Good
+- Good
+- OK!
