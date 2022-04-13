@@ -29,5 +29,5 @@ https://developer.redis.com/create/netlify/deploy-docusaurus-to-netlify/
 netlifyにてサイトを作成し、GitHubのリポジトリ選択で自動でデプロイできた！楽！
 
 #### configの修正
-docusaurus.config.js の`const config `を修正する。
+docusaurus.config.js の`const config `を修正する。  
 `title`や`url`を修正する
