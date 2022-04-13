@@ -28,13 +28,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/KoushiKagawa/docs/tree/main/',
+          editUrl: 'https://github.com/KoushiKagawa/docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/KoushiKagawa/docs/tree/main/',
+            'https://github.com/KoushiKagawa/docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -55,13 +55,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'about',
-            position: 'left',
-            label: 'About',
-          },
-          {
-            type: 'doc',
-            docId: 'intro',
+            docId: 'tutorials/intro',
             position: 'left',
             label: 'Tutorial',
           },
@@ -71,6 +65,8 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {to: '/docs/about/me', label: 'About', position: 'left'},
+
         ],
       },
       footer: {

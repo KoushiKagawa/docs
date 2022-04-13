@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# about
+# Me
 ## アカウント  
 
 |  Key  |  Value  |

@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# docusaurus install
+# docusaurus インストール
 
 ## docusaurusとは
 - ドキュメントサイトに特化した静的サイトジェネレータ  
