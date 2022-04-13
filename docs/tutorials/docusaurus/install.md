@@ -30,4 +30,18 @@ netlifyにてサイトを作成し、GitHubのリポジトリ選択で自動で�
 
 #### configの修正
 docusaurus.config.js の`const config `を修正する。
-`title`や`url`を修正する
+
+
+### docusaurus.config.jsの設定
+- `title`や`url`を修正する
+
+```
+  title: 'Kagawa docs',
+  tagline: 'I write web technology and life.',
+  url: 'https://kagawadocs.netlify.app/',
+```
+
+- editUrlの修正
+```
+editUrl: 'https://github.com/KoushiKagawa/docs/edit/main/',
+```
